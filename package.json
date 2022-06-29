@@ -7,5 +7,10 @@
     "gulp-clean-css": "^3.7.0",
     "gulp-rename": "^1.2.0",
     "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "angularfire": "^2.3.0",
+    "angularfire2": "^4.0.0-rc.2",
+    "firebase": "^4.4.0"
   }
 }

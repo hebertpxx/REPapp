@@ -1,0 +1,33 @@
+<ion-view title="Afazeres" ng-controller="AfazeresCtrl">
+
+    <ion-nav-buttons side="right">
+        <button class="button button-clear icon ion-navicon-round" ng-click="menu()">
+        </button>
+    </ion-nav-buttons>
+
+    <ion-content>
+
+        <div class="list">
+
+          <label class="item item-input">
+            <input type="text" placeholder="Procurar">
+          </label>
+
+          <ion-list class="item item-avatar" ng-repeat="afazer in afazeres">
+            <ion-item>
+              <h2>{{afazer.nome}}</h2>
+              <p>{{afazer.hora}}</p>
+              <p>{{afazer.responsavel}}</p>
+              <p>Obs.: {{afazer.observacoes}}</p>
+              <div class="tools-bar">
+                <div class="tools-bar-item"><img src="/img/plus-round.png" width="17px" height="17px"></div>
+                <div class="tools-bar-item"><img src="/img/edit.png" width="20px" height="15px"></div>
+                <div class="tools-bar-item"><img src="/img/ios7-close-empty.png" width="20px" height="15px"></div>
+              </div>
+            </ion-item>
+          </ion-list>
+    
+        
+    </ion-content>
+
+</ion-view>

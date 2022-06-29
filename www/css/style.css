@@ -1,1 +1,15 @@
 /* Empty. Add your own CSS if you like */
+
+.termos{
+    text-align: center;
+    font-size: 9px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.tools-bar-item{
+    float: left;
+    position: relative;
+}
